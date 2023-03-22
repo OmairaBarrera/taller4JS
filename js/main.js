@@ -16,10 +16,17 @@ do{
             console.log('SALIO DEL PROGRAMA')
             break;
         case 1:
+            let dato = prompt('Digite el dato a leer')
+            if (!isNaN(dato)){
+                alert('El dato ingresado es un Numero')
+            }else{
+                alert('El dato ingresado es un String')
+            }
             console.log('lECTURA DE DATOS');
             break;
         case 2:
             objeto = {};
+            alert('Objeto creado')
             break;
         case 3:
             console.log(objeto);
